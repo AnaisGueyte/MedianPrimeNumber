@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alata:wght@300;500&display=swap');
+
+#section{
+  display: flex;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Alata;
+}
+
+#section .game-area{
+  padding: 2em;
+  width: 60%;
+  background-color: rgba(92, 217, 227, 0.3);
+  border-radius: 19px 0px 0px 19px;
+}
+
+#section .game-area .header{
+  margin-bottom: 3em;
+}
+
+#section .game-area .App-logo {
+  height: 50px;
+}
+
+#section .game-area #inputLine{
+  display: flex;
+}
+
+#section .game-area #inputLine .submit-btn{
+    color: #212529;
+    background-color: #b7c8d4;
+    border-color: #b7c8d4;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    font-family: Alata;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+#section .game-area input{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    position: relative;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    margin-bottom: 0;
+    display: block;
+    width: 60%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    overflow: visible;
+    margin: 0;
+    font-family: inherit;
+}
+
+
+#section .picture-area{
+  padding: 2em;
+  width: 40%;
+  background-color: rgba(92, 217, 227, 0.1);
+  border-radius:  0px 19px 19px 0px;
+}
+
+#section .picture-area img{
+  width: 100%;
+}
+
+
+
